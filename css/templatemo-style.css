@@ -251,7 +251,7 @@
   -----------------------------------------*/
 
   .custom-navbar {
-    background: #202020;
+    background: #000000;
     border-top: 5px solid #bd1010;
     border-bottom: 0;
     -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
@@ -359,7 +359,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: left;
-    background-color: rgba(20,20,20,0.2);
+    background { background-color: #202020;}
     height: 100%;
     color: #fff;
     cursor: e-resize;
@@ -369,17 +369,20 @@
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
-    height: 650px;
+    height: 500px;
   }
   
   .caption h3 a { color: #FFF; }
   .caption h3 a:hover { color: #FF3; }
 
   .home-slider .item-first {
-    background-image: url(../images/slider-image1.jpg);
-	background-position: center;
+  background-image: url(../images/logo.png);
+ 
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
   }
-
+/*
   .home-slider .item-second {
     background-image: url(../images/slider-image2.jpg);
   }
@@ -388,7 +391,7 @@
     background-image: url(../images/slider-image3.jpg);
   }
 
-
+*/
 
   /*---------------------------------------
       FEATURE              
